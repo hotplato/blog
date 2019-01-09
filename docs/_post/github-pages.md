@@ -20,7 +20,7 @@ meta:
 
 ## 创建vuepress项目
 
-``` shell
+``` bash
 #首先创建一个项目文件夹，并在该文件夹里执行
 
 npm init # 按提示完成初始化项目
@@ -42,7 +42,7 @@ npm i -D vuepress@next # 安装vuepress
 ```
 
 之后，我们就可以执行其中一个命令
-``` shell
+``` bash
 
 npm start #启动开发环境
 
@@ -68,7 +68,7 @@ npm run build # 生成dist静态目录，用于生产环境
 
 
 我们先回到项目的根目录，在根目录创建script文件，并在script文件夹内创建build.sh
-``` sh
+``` bash
 #!/usr/bin/env sh
 
 set -e
@@ -87,7 +87,7 @@ git push -f https://${token}@github.com/${username}/${repo}.git master:gh-pages
 ```
 
 
-``` shell
+``` bash
 #初始化git
 git init
 
@@ -136,7 +136,7 @@ travis其本身是没有权限，我们需要从我们的github账号中获取
 
 并在项目根目录，创建.travis.yml文件
 
-``` yml
+``` yaml
 language: node_js
 sudo: required
 node_js:
@@ -155,7 +155,7 @@ branch: master
 
 假设已经修改了任意文件，命令行中执行
 
-``` shell
+``` bash
 
 git add -A
 git commit -m 'update'
