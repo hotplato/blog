@@ -10,4 +10,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:ning734824592/blog.git master:gh-pages
+git push -f https://github.com/ning734824592/blog.git master:gh-pages
