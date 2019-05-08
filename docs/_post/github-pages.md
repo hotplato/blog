@@ -53,7 +53,7 @@ npm run build # 生成dist静态目录，用于生产环境
 至此，我们创建了一个vuepress项目
 
 ::: tip
-以上步骤，只是完成一个基本的项目，更多配置请查看[vuepress](https://vuepress.vuejs.org)官方文档
+以上步骤，只是完成一个基本的项目，更多配置请查看[vuepress](https://v1.vuepress.vuejs.org/)官方文档
 :::
 
 ## 提交到github
