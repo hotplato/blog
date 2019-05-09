@@ -22,9 +22,14 @@ export default {
       categories: ["前端", "后端", "其它"]
     };
   },
+  props: ["only"],
+  mounted() {
+    if (this.only) {
+      this.categories = [this.only];
+    }
+  },
   computed: {
     list() {
-      // console.log(this.categories)
       const pages = this.$site.pages;
       let list = [];
       this.categories.forEach(category => {

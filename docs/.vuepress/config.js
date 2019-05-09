@@ -6,6 +6,10 @@ module.exports = {
     themeConfig: {
         nav: [ // 导航栏配置
             {
+                text: '首页',
+                link: '/'
+            },
+            {
                 text: '前端',
                 link: '/frontend'
             },
