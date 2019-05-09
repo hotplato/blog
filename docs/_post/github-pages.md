@@ -1,6 +1,6 @@
 ---
 lang: zh-CN
-tags: ['vue','vuepress','github.com','github.pages']
+tags: ['前端','vue','vuepress','github.com','github.pages']
 sidebar: auto
 meta:
   - name: description

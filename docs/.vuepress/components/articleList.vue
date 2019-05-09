@@ -1,9 +1,9 @@
 <template>
   <div>
     <ul v-for="post of tags" :key="post.key">
-        <li>
-            <router-link :to="{path:post.path}">{{post.title}}</router-link>
-        </li>
+      <li>
+        <router-link :to="{path:post.path}">{{post.title}}</router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
     tags() {
       let tags = [];
       for (const page of this.$site.pages) {
-        if (page.path.indexOf('_post') > -1) {
+        if (page.path.indexOf("_post") > -1) {
           tags.push(page);
         }
       }
